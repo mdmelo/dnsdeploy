@@ -1,0 +1,25 @@
+{
+  "google-cloud-dns": {
+    "TYPE": "GCLOUD",
+    "type": "service_account",
+    "project_id": "dns-api-first-0440",
+    "private_key_id": "29ebb9a7217de2be556270da74d43a5c0b11ca7a",
+    "private_key": "$GCP_PRIVATE_KEY",
+    "client_email": "dns-api-svc-acct@dns-api-first-0440.iam.gserviceaccount.com",
+    "client_id": "105530607364444855348",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dns-api-svc-acct%40dns-api-first-0440.iam.gserviceaccount.com"
+  },
+  "r53": {
+    "TYPE": "ROUTE53",
+    "KeyId": "AKIAW4MAJZ5BGJYDGBH3",
+    "SecretKey": "$AWS_SECRET_KEY",
+    "Token": ""
+  },
+  "none": {
+    "TYPE": "NONE"
+  }
+}
+
