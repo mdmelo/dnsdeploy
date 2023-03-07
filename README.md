@@ -1,3 +1,3 @@
 # dnsdeploy
 
-# GH actions to preview and push (pr1)
+# GH actions to preview and push (pr2)
