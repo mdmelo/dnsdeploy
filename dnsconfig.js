@@ -16,6 +16,7 @@ D('qqmike.com!gcloud', REG_NONE, DnsProvider(DNS_GCLOUD),
     CNAME('chat', 'zzchat.qqmike.com.'),
     CNAME('admin', '@', TTL(3600)),
     CNAME('store', 'www.qqmike.com.'),
+    CNAME('storegcp', 'www.qqmike.com.'),
     A('meta', '204.141.89.164')
 );
 
@@ -26,6 +27,7 @@ D('qqmike.com!r53', REG_NONE, DnsProvider(R53),
     CNAME('chat', 'zzchat.qqmike.com.'),
     CNAME('admin', '@', TTL(3600)),
     CNAME('store', 'www.qqmike.com.'),
+    CNAME('storer53', 'www.qqmike.com.'),
     A('meta', '204.141.89.164')
 );
 
