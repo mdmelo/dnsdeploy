@@ -22,7 +22,8 @@ jobs:
         id: preview
         uses: koenrh/dnscontrol-action@v3
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GCP_PRIVATE_KEY: ${{ secrets.GCP_PRIVATE_KEY }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
         with:
           args: preview
       - name: Comment diff on PR
